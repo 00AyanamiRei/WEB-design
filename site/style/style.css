@@ -1,0 +1,98 @@
+/* Використання Reset для нормалізації стилів у всіх браузерах */
+/* Використання Bootstrap Reboot для актуальних правил блочної моделі CSS */
+
+/* Додаткові стилі для заголовка і тексту */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стилі для заголовка в шапці */
+header {
+  background-color: #0d6efd;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Стилі для навігаційного меню */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Стилі для основного контенту */
+main {
+  padding: 20px;
+}
+
+/* Стилі для статей та заголовків */
+article {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #0d6efd;
+}
+
+p {
+  margin: 0;
+}
+
+/* Стилі для зображень та підписів до них */
+figure {
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.875em;
+  color: #6c757d;
+}
+
+
+
+/* Стилі для підвалу */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Стилі для посилань */
+a {
+  color: #0d6efd;
+}
+
+a:hover {
+  color: #0a58ca;
+}
